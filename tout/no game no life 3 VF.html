@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr"> 
+    <link rel="icon" href=
+    "https://cdn-icons-png.flaticon.com/512/633/633832.png" type="image/x-icon">
+	<head> 
+
+		<meta charset="utf-8">
+		<title>Stream-Flix</title>
+	</head> 
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+        body{
+            font-family: 'Poppins', sans-serif;
+            background-image: url("https://img.freepik.com/photos-gratuite/fond-gris-peint_53876-94041.jpg?w=2000");
+            background-attachment: fixed;
+        }
+        
+        
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: transparent;
+        }
+        li{
+            float: left;
+        }
+        li a{
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover{
+            background-color: red;
+            border-radius: 10px;
+        }
+    </style>
+	<body> 
+        <div class="container">
+            <ul>
+                <li><a class="active" href="../index.html">Home</a></li>
+                <li><a  href="Films.html">Films</a></li>
+                <li><a  href="Anime VF.html">Anime VF</a></li>
+                <li><a  href="AimeVOSTFR.html">Anime VOSTFR</a></li>
+            </ul>
+            <p align="center"><a href="no game no life 2 VF.html" target="_parent"><button>Précédent</button></a><a href="no game no life 4 VF.html" target="_parent"><button>Suivant</button></a></p>
+            </div>
+            
+            <SCRIPT>
+                function Listederoulante() {
+                  i = document.Choix.Liste.selectedIndex;
+                  if (i == 0) return;
+                    url = document.Choix.Liste.options[i].value;
+                    parent.location.href = url;
+                }
+              </SCRIPT>
+             
+            <form name="Choix" method="post">
+                <p align="center"><SELECT NAME="Liste"></p>
+                 <OPTION VALUE="0">épisode</option>
+                 <OPTION VALUE="no game no life 1 VF.html">1</option>
+                 <OPTION VALUE="no game no life 2 VF.html">2</option>
+                 <OPTION VALUE="no game no life 3 VF.html">3</option> 
+                 <OPTION VALUE="no game no life 4 VF.html">4</option> 
+                 <OPTION VALUE="no game no life 5 VF.html">5</option> 
+                 <OPTION VALUE="no game no life 6 VF.html">6</option> 
+                 <OPTION VALUE="no game no life 7 VF.html">7</option> 
+                 <OPTION VALUE="no game no life 8 VF.html">8</option>
+                 <OPTION VALUE="no game no life 9 VF.html">9</option> 
+                 <OPTION VALUE="no game no life 10 VF.html">10</option> 
+                 <OPTION VALUE="no game no life 11 VF.html">11</option>
+                 <OPTION VALUE="no game no life 12 VF.html">12</option>              
+            </form>
+            <input type="button" value="Y allez" onClick="Listederoulante()">
+            <p align="center"><iframe width="640" height="384" src="https://video.sibnet.ru/shell.php?videoid=4673584" frameborder="0" scrolling="no" allowfullscreen></iframe></p>
